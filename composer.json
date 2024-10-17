@@ -1,0 +1,29 @@
+{
+    "name": "habz/ipaymu-v2-laravel",
+    "description": "This package used for integrate ipaymu v2 public API to laravel",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "HabzDev\\IPaymuLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HabzDev",
+            "email": "habzdev@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HabzDev\\IPaymuLaravel\\IPaymuServiceProvider"
+            ],
+            "aliases" : {
+                "IPaymu": "HabzDev\\IPaymuLaravel\\Facades\\IPaymu"
+            }
+        }
+    }
+}
