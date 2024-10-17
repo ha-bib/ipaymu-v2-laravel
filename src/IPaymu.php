@@ -181,31 +181,18 @@ class IPaymu
         // dd($this->carts);
     }
 
-    public function add($id, string $product, float $productsPrice, int $productsQty, string $productsDesc = null, $productsWeight = null, $productsLength = null, $productsWidth = null, $productsHeight = null)
+    public function add(array $productDetails)
     {
         $this->carts[] = [
-            'id' => $id,
-            'product' => trim($product),
-            'price' => trim($productsPrice),
-            'quantity' => trim($productsQty),
-            'description' => trim($productsDesc),
-            'weight' => trim($productsWeight),
-            'length' => trim($productsLength),
-            'width' => trim($productsWidth),
-            'height' => trim($productsHeight)
+            'product' => trim($productDetails['product_name'] ?? ''),
+            'price' => trim($productDetails['price'] ?? 0),
+            'quantity' => trim($productDetails['quantity'] ?? 0),
+            'description' => trim($productDetails['description'] ?? ''),
+            'weight' => trim($productDetails['weight'] ?? 0),
+            'length' => trim($productDetails['length'] ?? 0),
+            'width' => trim($productDetails['width'] ?? 0),
+            'height' => trim($productDetails['height'] ?? 0),
         ];
-    }
-
-    /**
-     * @param $id
-     */
-    public function remove($id)
-    {
-        foreach ($this->carts as $key => $cart) {
-            if (isset($cart['id']) == $id) {
-                unset($this->carts[$key]);
-            }
-        }
     }
 
     /**
