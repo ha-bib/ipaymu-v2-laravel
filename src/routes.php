@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Marketbiz\IPaymuLaravel\IPaymu;
+use Habz\IPaymuLaravel\IPaymu;
 
 Route::get('demo', function() {
 // set buyer name

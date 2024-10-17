@@ -1,8 +1,8 @@
 <?php
 
-namespace Marketbiz\IPaymuLaravel\Traits;
+namespace Habz\IPaymuLaravel\Traits;
 
-use Marketbiz\IPaymuLaravel\Exceptions\Unauthorized;
+use Habz\IPaymuLaravel\Exceptions\Unauthorized;
 
 trait CurlTrait
 {

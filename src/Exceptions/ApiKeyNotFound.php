@@ -1,6 +1,6 @@
 <?php
 
-namespace Marketbiz\IPaymuLaravel\Exceptions;
+namespace Habz\IPaymuLaravel\Exceptions;
 
 use Exception;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Marketbiz\IPaymuLaravel;
+namespace Habz\IPaymuLaravel;
 
 use Illuminate\Support\ServiceProvider;
-use Marketbiz\IPaymuLaravel\IPaymu;
+use Habz\IPaymuLaravel\IPaymu;
 
 class IPaymuServiceProvider extends ServiceProvider
 {

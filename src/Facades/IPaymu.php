@@ -1,6 +1,6 @@
 <?php
 
-namespace Marketbiz\IPaymuLaravel\Facades;
+namespace Habz\IPaymuLaravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

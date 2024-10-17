@@ -1,10 +1,10 @@
 <?php
 
-namespace Marketbiz\IPaymuLaravel;
+namespace Habz\IPaymuLaravel;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Request;
-use Marketbiz\IPaymuLaravel\Exceptions\Unauthorized;
+use Habz\IPaymuLaravel\Exceptions\Unauthorized;
 
 class ClientRequest
 {

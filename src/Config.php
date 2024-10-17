@@ -1,6 +1,6 @@
 <?php
 
-namespace Marketbiz\IPaymuLaravel;
+namespace Habz\IPaymuLaravel;
 
 class Config
 {

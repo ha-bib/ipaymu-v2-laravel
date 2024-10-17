@@ -1,11 +1,11 @@
 <?php
 
-namespace Marketbiz\IPaymuLaravel;
+namespace Habz\IPaymuLaravel;
 
-use Marketbiz\IPaymuLaravel\Config;
-use Marketbiz\IPaymuLaravel\Exceptions\VANotFound;
-use Marketbiz\IPaymuLaravel\Exceptions\ApiKeyNotFound;
-use Marketbiz\IPaymuLaravel\Traits\CurlTrait;
+use Habz\IPaymuLaravel\Config;
+use Habz\IPaymuLaravel\Exceptions\VANotFound;
+use Habz\IPaymuLaravel\Exceptions\ApiKeyNotFound;
+use Habz\IPaymuLaravel\Traits\CurlTrait;
 
 class IPaymu
 {
