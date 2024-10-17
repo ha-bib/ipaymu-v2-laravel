@@ -4,12 +4,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "HabzDev\\IPaymuLaravel\\": "src/"
+            "Habz\\IPaymuLaravel\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "HabzDev",
+            "name": "Habz",
             "email": "habzdev@gmail.com"
         }
     ],
@@ -19,10 +19,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "HabzDev\\IPaymuLaravel\\IPaymuServiceProvider"
+                "Habz\\IPaymuLaravel\\IPaymuServiceProvider"
             ],
             "aliases" : {
-                "IPaymu": "HabzDev\\IPaymuLaravel\\Facades\\IPaymu"
+                "IPaymu": "Habz\\IPaymuLaravel\\Facades\\IPaymu"
             }
         }
     }
