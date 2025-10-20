@@ -69,12 +69,43 @@ class IPaymu
 
     /**
      * @var , Store Payment Method
+     * Payment method. Value:
+     * - Virtual Account => 'va'
+     * - Convenience Store => 'cstore'
+     * - COD => 'cod'
+     * - QRIS => 'qris'
+     * - Credit Card => 'cc'
      */
     protected $paymentMethod;
 
 
     /**
      * @var , Store Payment Channel
+     * Payment channel of the payment method
+     * Virtual Account (va)
+     * - BAG => 'bag'
+     * - BCA => 'bca'
+     * - BNI => 'bni'
+     * - Cimb Niaga => 'cimb'
+     * - Mandiri => 'mandiri'
+     * - Muamalat => 'bmi'
+     * - BRI => 'bri'
+     * - BSI => 'bsi'
+     * - Permata => 'permata'
+     * - Danamon => 'danamon'
+     * 
+     * Convenience Store (cstore)
+     * - Alfamart => 'alfamart'
+     * - Indomaret => 'indomaret'
+     * 
+     * Cash On Delivery (cod)
+     * - Kurir RPX => 'rpx'
+     * 
+     * QRIS (qris)
+     * - qris => 'mpm'
+     * 
+    * Credit Card
+    * - cc => 'cc'
      */
     protected $paymentChannel;
 
